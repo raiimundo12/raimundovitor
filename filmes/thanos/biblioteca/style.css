@@ -1,0 +1,19 @@
+div {
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    border: 1px solid #777;
+    width: 800px;
+    margin: auto;
+  }
+  .prodtd {
+    width: 700px;
+    height: 80px;
+  }
+  .nomeprod {
+    background-color: #ffa;
+  }
+  .preco {
+    background-color: #eee;
+  }

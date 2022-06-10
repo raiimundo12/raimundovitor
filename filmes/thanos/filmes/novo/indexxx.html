@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../biblioteca/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script16.js"></script>
+
+</head>
+
+<body  onload = "olapai()">
+    <div class="container">
+        <div class="row">
+            <input type="text" class="form-control m-5" id="max"
+            style="width:300px ">
+
+        </div>
+    </div>
+
+
+
+    <h1>MELHORES FILMES 2022</h1>
+    <div class="container">
+        <div class="row ">
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome1"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco1" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(1)"> 
+                            
+                            <span id="qtd1">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(1)">
+                            
+                        </td>
+                    </tr>
+                </div>
+
+
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome2"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco2" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(2)"> 
+                            
+                            <span id="qtd2">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(2)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome3"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco3" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(3)"> 
+                            
+                            <span id="qtd3">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(3)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome4"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco4" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(4)"> 
+                            
+                            <span id="qtd4">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(4)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome5"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco5" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(5)"> 
+                            
+                            <span id="qtd5">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(5)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome6"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco6" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(6)"> 
+                            
+                            <span id="qtd6">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(6)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+
+
+
+            
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome7"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco7" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(7)"> 
+                            
+                            <span id="qtd7">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(7)">
+                            
+                        </td>
+                    </tr>
+                </div>
+
+
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome8"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco8" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(8)"> 
+                            
+                            <span id="qtd8">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(8)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome9"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco9" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(9)"> 
+                            
+                            <span id="qtd9">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(9)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome10"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco10" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(10)"> 
+                            
+                            <span id="qtd10">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(10)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome11"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco11" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(11)"> 
+                            
+                            <span id="qtd11">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(11)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <picture>
+                    <img src="s_1375666_cf019cb3.jpg" alt="">
+                </picture>
+                <div class="col">
+                    <tr>
+                        <td class="prodtd">
+                        
+                            <div id="nome12"     class="nomeprod">INCEPTION
+                            </div>
+                            
+                            <div id="preco12" class="preco">10,00</div>
+                            
+                        </td>
+                        <td align="center" valign="middle">
+                        
+                            <input type="button" value="-" onclick="remove(12)"> 
+                            
+                            <span id="qtd12">0</span> 
+                            
+                            <input type="button" value="+" onclick="adiciona(12)">
+                            
+                        </td>
+                    </tr>
+                </div>
+            </div>
+</div>
+
+
+
+<!-- linha 3------------------------------------------------ -->
+<div class="row">
+    <div class="col-2">
+        <picture>
+            <img src="s_1375666_cf019cb3.jpg" alt="">
+
+        </picture>
+        <div class="col">
+            <tr>
+                <td class="prodtd">
+                
+                    <div id="nome13"     class="nomeprod">INCEPTION
+                    </div>
+                    
+                    <div id="preco13" class="preco">10,00</div>
+                    
+                </td>
+                <td align="center" valign="middle">
+                
+                    <input type="button" value="-" onclick="remove(13)"> 
+                    
+                    <span id="qtd13">0</span> 
+                    
+                    <input type="button" value="+" onclick="adiciona(13)">
+                    
+                </td>
+            </tr>
+        </div>
+
+
+    </div>
+
+    <div class="col-2">
+        <picture>
+            <img src="s_1375666_cf019cb3.jpg" alt="">
+        </picture>
+        <div class="col">
+            <tr>
+                <td class="prodtd">
+                
+                    <div id="nome14"     class="nomeprod">INCEPTION
+                    </div>
+                    
+                    <div id="preco14" class="preco">10,00</div>
+                    
+                </td>
+                <td align="center" valign="middle">
+                
+                    <input type="button" value="-" onclick="remove(14)"> 
+                    
+                    <span id="qtd14">0</span> 
+                    
+                    <input type="button" value="+" onclick="adiciona(14)">
+                    
+                </td>
+            </tr>
+        </div>
+    </div>
+
+    <div class="col-2">
+        <picture>
+            <img src="s_1375666_cf019cb3.jpg" alt="">
+        </picture>
+        <div class="col">
+            <tr>
+                <td class="prodtd">
+                
+                    <div id="nome15"     class="nomeprod">INCEPTION
+                    </div>
+                    
+                    <div id="preco15" class="preco">10,00</div>
+                    
+                </td>
+                <td align="center" valign="middle">
+                
+                    <input type="button" value="-" onclick="remove(15)"> 
+                    
+                    <span id="qtd15">0</span> 
+                    
+                    <input type="button" value="+" onclick="adiciona(15)">
+                    
+                </td>
+            </tr>
+        </div>
+    </div>
+
+    <div class="col-2">
+        <picture>
+            <img src="s_1375666_cf019cb3.jpg" alt="">
+        </picture>
+        <div class="col">
+            <tr>
+                <td class="prodtd">
+                
+                    <div id="nome16"     class="nomeprod">INCEPTION
+                    </div>
+                    
+                    <div id="preco16" class="preco">10,00</div>
+                    
+                </td>
+                <td align="center" valign="middle">
+                
+                    <input type="button" value="-" onclick="remove(16)"> 
+                    
+                    <span id="qtd16">0</span> 
+                    
+                    <input type="button" value="+" onclick="adiciona(16)">
+                    
+                </td>
+            </tr>
+        </div>
+    </div>
+
+    <div class="col-2">
+        <picture>
+            <img src="s_1375666_cf019cb3.jpg" alt="">
+        </picture>
+        <div class="col">
+            <tr>
+                <td class="prodtd">
+                
+                    <div id="nome17"     class="nomeprod">INCEPTION
+                    </div>
+                    
+                    <div id="preco17" class="preco">10,00</div>
+                    
+                </td>
+                <td align="center" valign="middle">
+                
+                    <input type="button" value="-" onclick="remove(17)"> 
+                    
+                    <span id="qtd17">0</span> 
+                    
+                    <input type="button" value="+" onclick="adiciona(17)">
+                    
+                </td>
+            </tr>
+        </div>
+    </div>
+
+    <div class="col-2">
+        <picture>
+            <img src="s_1375666_cf019cb3.jpg" alt="">
+        </picture>
+        <div class="col">
+            <tr>
+                <td class="prodtd">
+                
+                    <div id="nome18"     class="nomeprod">INCEPTION
+                    </div>
+                    
+                    <div id="preco18" class="preco">10,00</div>
+                    
+                </td>
+                <td align="center" valign="middle">
+                
+                    <input type="button" value="-" onclick="remove(18)"> 
+                    
+                    <span id="qtd18">0</span> 
+                    
+                    <input type="button" value="+" onclick="adiciona(18)">
+                    
+                </td>
+            </tr>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--  -->
+
+
+
+            
+        </div>
+
+        <!-- <div class="row">
+            <h1>Valor Total
+                
+            </h1>
+           <div class="col"> -->
+
+
+
+<!--                 
+                <input type="text" placeholder="Resultado" id="Resul" name="Resul" onclick="Resultado.Calcular()">
+
+               <button type="submit" class="btn btn-primary mb-3">Calcular</button>
+           </div> -->
+
+           <tr>
+            <td align="center"><b>Total: <span id="total">0,00<span></b></td>
+            <td>&nbsp;</td>
+        </tr>
+
+
+        </div> 
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

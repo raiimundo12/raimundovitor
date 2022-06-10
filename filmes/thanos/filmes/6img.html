@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../biblioteca/bootstrap.css">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container shadow-lg m-5">
+        <div class="row offset-2">
+            <div class="col-4 pt-5 pb-5" id="card1">
+                <picture>
+                    <img src="ju_8041270_3e00a1ba.png" alt="" srcset="">
+                </picture>
+            </div>
+            <div class="col-6 pt-5 pb-5">
+                <h3>
+                    Jurassic World: Domínio
+                </h3>
+                <p>
+                    O Parque dos Dinossauros está aberto para visitação, e o público tem a chance de ver de perto as mais diversas espécies. Porém, um desses animais, resultado de experiência genética, desenvolve alta inteligência e se torna uma ameaça para todos.
+                </p>
+                <!-- <h3>
+                    10,00
+                </h3>
+                
+                <tr>
+                    <td class="prodtd">
+                    
+                        <div id="nome1"     class="nomeprod">
+                        </div>
+                        
+                        <div id="preco1" class="preco"></div>
+                        
+                    </td>
+                    <td align="center" valign="middle">
+                    
+                        <input type="number"  max="10" min="0" value="-" onclick="remove(1)"> 
+                        
+                         <span id="qtd1">0</span>  
+                        
+                         <input type="button" value="+" onclick="adiciona(1)">
+                        
+                    </td>
+                </tr>
+
+                
+                <input type="button" value="Adicionar no Carrinho"> -->
+
+                           
+ <div align="col-6 pt-5 pb-5">
+    <h3>10,00</h3>
+      <input type="number" value="1" min="1" max="10" id="qtd6">
+     <button type="button" id="adicionar6" id="produto5" onclick="AddCarrinho('Vingadores: Ultimato', document.getElementById('qtd6').value, '10.00', 6)">Adicionar No Carrinho </button>
+ </div>
+
+ <a href="indexxx.html">Voltar</a>
+
+
+
+
+ <script>
+     function AddCarrinho(produto, qtd, valor, posicao)
+     {
+         localStorage.setItem("produto" + posicao, produto);
+         localStorage.setItem("qtd" + posicao, qtd);
+         valor = valor * qtd;
+         localStorage.setItem("valor" + posicao, valor);
+         alert("Produto adicionado ao carrinho!");
+     }
+ </script>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="zoom.js"></script>
+</html>
