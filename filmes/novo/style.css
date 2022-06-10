@@ -1,0 +1,28 @@
+.container{
+
+/* margin: top 10px;;     */
+background-color: rgb(161, 29, 29);
+margin: auto;
+padding-left: 20px;
+
+
+}
+img{
+width: 95%; 
+}
+.row{
+padding-top: 80px;
+padding-bottom: 80px;
+padding-right: 21px;
+
+}  
+h1{  text-align: center;
+}
+p{
+text-align: center;
+background-color: aliceblue;
+}
+
+.row{
+    background-color: rgb(119, 8, 8);
+}
